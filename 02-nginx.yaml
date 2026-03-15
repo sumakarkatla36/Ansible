@@ -4,7 +4,7 @@
   tasks:
    - name: install nginx package
      ansible.builtin.package:
-      name: chrony
+      name: nginx
       state: present
    - name: run nginx
      ansible.builtin.service:
