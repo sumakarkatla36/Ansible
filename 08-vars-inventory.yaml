@@ -1,0 +1,6 @@
+- name: variables from playlevel
+  hosts: localhost
+  tasks:
+  - name: check variables
+    ansible.builtin.debug:
+     msg: "Hi,iam learning {{course}},Trainer is {{Trainer}},Duration is {{Duration}}"
